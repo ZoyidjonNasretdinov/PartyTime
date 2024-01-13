@@ -1,0 +1,414 @@
+body {    
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    background-color: #646262;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.event {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin: 0 20px;
+}
+
+.event img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.event h3 {
+    margin: 0;
+}
+
+.event p {
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.event {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin: 0 20px;
+}
+
+.event img {
+    width: 300px; height: 200px;
+    margin-bottom: 10px;
+}
+
+.event h3 {
+    margin: 0;
+}
+
+.event p {
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+/* ... oldingi CSS kodlari ... */
+.packages {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.package {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    width: 300px;
+}
+
+.package h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.package ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.package ul li {
+    margin-bottom: 10px;
+}
+
+.package.bronze {
+    border: 2px solid #cd7f32;
+}
+
+.package.silver {
+    border: 2px solid #c0c0c0;
+}
+
+.package.gold {
+    border: 2px solid #ffd700;
+}
+
+/* Animatsiya */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Buton rangining o'zgarishi animatsiyasi */
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s ease; /* Rasmlarning o'zgarishi animatsiyasi */
+}
+.gallery img:hover {
+    transform: scale(1.1); /* Rasmlarni kattalashtirish animatsiyasi */
+}
+
+/* Ranglar */
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Nav link rangining o'zgarishi animatsiyasi */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ff9800;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Buton rangining o'zgarishi animatsiyasi */
+}
+
+.btn:hover {
+    background-color: #555;
+    color: #ff9800;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Footer rangining o'zgarishi animatsiyasi */
+}
+
+footer:hover {
+    background-color: #555;
+}
+
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  .packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .package {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .package h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .package ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .package ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Image gallery styles */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  
+  .gallery img {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
